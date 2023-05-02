@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset='UTF-8'>
+    <meta charset=“UTF-8”>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
     <meta name="HandheldFriendly" content="true">
     <meta name="format-detection" content="telephone=no">
@@ -40,6 +40,13 @@
                                     </div>
                                 </a>
                             </li>
+                            <li class="list-con">
+                                <a href="javascript:void(0);" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_menu.svg" alt="menu icon"></p>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -48,89 +55,59 @@
     </header>
     <!-- // header -->
     <div id="container" class="container">
-        <div class="cate-list">
-            <div class="cate-title-area">
-                <div class="title-wrap">
-                    <p class="title">
-                        총 80개 상품
-                    </p>
+        <div class="pickup">
+            <div class="g-search-area">
+                <div class="g-search-wrap">
+                    <div class="ico-wrap">
+                        <p class="ico"><img src="/assets/img/search-ico.svg" alt="search"></p>
+                    </div>
+                    <div class="input-wrap">
+                        <input type="search" placeholder="지역, 약국명으로 검색">
+                    </div>
                 </div>
             </div>
-            <!-- 메인상품진열 10 시작 { -->
-            <div class="product-list-area">
-                <ul class="list-wrap clearfix">
-                    <li class="list-con sct_clear">
-                        <div class="list-inner">
-                            <div class="thumb-area">
-                                <a href="https://mall.carespet.com/shop/item.php?it_id=2-8200" class="thumb">
-                                    <img src="https://image.ddakpet.com/upload_operate/shop/1551/product/DDAKPET_904bd851-7eaa-487e-ad19-6de84dba9cab.jpg" alt="썸네일">
-                                </a>
-                            </div>
-                            <div class="content-text-area">
-                                <div class="subject-wrap">
-                                    <p class="brand">
-                                        브랜드명
-                                    </p>
-                                    <a href="https://mall.carespet.com/shop/item.php?it_id=2-8200" class="subject">
-                                        상품명
-                                    </a>
-                                </div>
-                                <div class="ico-wrap">
-                                    <span class="sct_icon"><span class="icon icon_best">best</span><br></span>
-                                </div>
-                            </div>
-                        </div>
+            <nav class="g-lnb">
+                <ul class="dep1-wrap">
+                    <!-- active class 추가 시 활성화 -->
+                    <li class="dep1-con active">
+                        <a href="#;" class="dep1">
+                            <p class="text">
+                                가까운 거리순
+                            </p>
+                        </a>
                     </li>
-                    <li class="list-con sct_clear">
-                        <div class="list-inner">
-                            <div class="thumb-area">
-                                <a href="https://mall.carespet.com/shop/item.php?it_id=2-8200" class="thumb">
-                                    <img src="https://image.ddakpet.com/upload_operate/shop/1551/product/DDAKPET_904bd851-7eaa-487e-ad19-6de84dba9cab.jpg" alt="썸네일">
-                                </a>
-                            </div>
-                            <div class="content-text-area">
-                                <div class="subject-wrap">
-                                    <p class="brand">
-                                        브랜드명
-                                    </p>
-                                    <a href="https://mall.carespet.com/shop/item.php?it_id=2-8200" class="subject">
-                                        상품명
-                                    </a>
-                                </div>
-                                <div class="ico-wrap">
-                                    <span class="sct_icon"><span class="icon icon_new">new</span><br></span>
-                                </div>
-                            </div>
-                        </div>
+                    <li class="dep1-con">
+                        <a href="#;" class="dep1">
+                            <p class="text">
+                                취급 상품순
+                            </p>
+                        </a>
+                    </li>
+                    <li class="dep1-con">
+                        <a href="#;" class="dep1">
+                            <p class="text">
+                                약국 이름순
+                            </p>
+                        </a>
                     </li>
                 </ul>
-            </div>
-            <div class="more-btn-area">
-                <div class="btn-wrap">
-                    <button class="btn">
-                        <p class="text">더보기</p>
-                        <p class="ico">
-                            <img src="assets/img/more-btn-ico.svg" alt="arrow icon">
+            </nav>
+            <div class="search-empty">
+                <div class="content-text">
+                    <div class="title-wrap">
+                        <p class="title">
+                            검색 결과가 없습니다.
                         </p>
-                    </button>
+                    </div>
+                    <div class="text-wrap">
+                        <p class="text">
+                            다른 검색어를 입력하시거나<br>
+                            철자와 띄어쓰기를 확인해보세요.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- 검색 결과 없을 경우 -->
-        <div class="search-empty-text">
-            <div class="title-wrap">
-                <p class="title">
-                    검색 결과가 없습니다.
-                </p>
-            </div>
-            <div class="text-wrap">
-                <p class="text">
-                    다른 검색어를 입력하시거나<br>
-                    철자와 띄어쓰기를 확인해보세요.
-                </p>
-            </div>
-        </div>
-        <!-- // 검색 결과 없을 경우 -->
     </div>
     <!-- footer -->
     <footer class="footer">

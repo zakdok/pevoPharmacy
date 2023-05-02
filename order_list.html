@@ -55,27 +55,7 @@
     </header>
     <!-- // header -->
     <div id="container" class="container">
-        <p class="g-separator">line</p>
         <div class="order-list">
-            <nav class="g-lnb">
-                <ul class="dep1-wrap">
-                    <!-- active class 추가 시 활성화 -->
-                    <li class="dep1-con active">
-                        <a href="#;" class="dep1">
-                            <p class="text">
-                                가까운 거리순
-                            </p>
-                        </a>
-                    </li>
-                    <li class="dep1-con">
-                        <a href="#;" class="dep1">
-                            <p class="text">
-                                최근 방문
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
             <div class="order-list-area">
                 <ul class="list-wrap">
                     <li class="list-con">
@@ -88,7 +68,12 @@
                                         </p>
                                     </div>
                                     <div class="status-wrap">
-                                        <p class="status green">
+                                        <!-- 
+                                            orange : 결제대기, 픽업
+                                            blue : 결제완료, 픽업완료
+                                            gray : 주문취소, 상품준비중, 주문만료, 반품완료
+                                        -->
+                                        <p class="status blue">
                                             결제 대기
                                         </p>
                                     </div>
@@ -102,6 +87,9 @@
                                     <div class="date-wrap">
                                         <p class="date">
                                             주문일 : 2022.07.31
+                                        </p>
+                                        <p class="end-date">
+                                            주문만료 D-7
                                         </p>
                                     </div>
                                 </div>
@@ -135,7 +123,7 @@
                                         </p>
                                     </div>
                                     <div class="status-wrap">
-                                        <p class="status">
+                                        <p class="status orange">
                                             상품준비중
                                         </p>
                                     </div>
@@ -182,7 +170,7 @@
                                         </p>
                                     </div>
                                     <div class="status-wrap">
-                                        <p class="status">
+                                        <p class="status gray">
                                             픽업대기
                                         </p>
                                     </div>
