@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=“UTF-8”>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="//cdn.jsdelivr.net/npm/swiper@8.3.1/swiper-bundle.min.js"></script>
+    <title>pevo pharm</title>
+    <link rel="stylesheet" href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css?1668500046">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper@8.3.1/swiper.min.css?1668497615">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/sub.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="hd-area hd-layout">
+            <div class="hd-wrap">
+                <div class="left">
+                    <h1 class="logo"><a href="/"><img src="/assets/img/logo.svg" alt="PEVO pharm 메인"></a></h1>
+                </div>
+                <div class="right">
+                    <nav class="location-area">
+                        <ul class="list-wrap">
+                            <li class="list-con" id="btn_sch">
+                                <a href="#;" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_search.svg" alt="search icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-con">
+                                <a href="#;" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_cart.svg" alt="cart icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-con">
+                                <a href="javascript:void(0);" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_menu.svg" alt="menu icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- // header -->
+    <div id="container" class="container">
+        <div class="cart-area">
+            <div class="cart-wrap">
+                <div class="select-pickup-area">
+                    <div class="pickup-wrap">
+                        <div class="left">
+                            <div class="title-area">
+                                <p class="title">
+                                    픽업 약국
+                                </p>
+                                <!-- active class 추가 시 활성화 -->
+                                <p class="text">
+                                    약국을 선택해주세요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="btn-wrap">
+                                <a href="#;" class="btn">
+                                    선택
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="all-chk-area">
+                    <div class="all-chk-wrap">
+                        <input type="checkbox" name="ct_all" id="ct_all">
+                        <label for="ct_all">
+                            전체선택
+                        </label>
+                        <p class="count">1개 상품</p>
+                    </div>
+                </div>
+                <div class="cart-list-area">
+                    <ul class="cart-list-wrap">
+                        <!-- active class 추가 시 stroke 활성화 -->
+                        <li class="cart-list-con active">
+                            <div class="cart-list-inner">
+                                <div class="chk-btn-wrap">
+                                    <input type="checkbox" name="ct_chk[0]" value="1" id="ct_chk_0">
+                                    <label for="ct_chk_0">
+                                        <span class="chk_img"></span>
+                                    </label>
+                                </div>
+                                <div class="left">
+                                    <div class="thumb-area">
+                                        <div class="thumb-wrap">
+                                            <p class="thumb">
+                                                <img src="/assets/img/thumb-dummy.png" alt="thumbnail">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="content-text-area">
+                                        <div class="subject-area">
+                                            <div class="subject-wrap">
+                                                <p class="subject">
+                                                    <a href="#;">
+                                                        <strong>[베토퀴놀] 레날케이 칼륨 보충제</strong>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="delete-btn-wrap">
+                                                <a class="button">
+                                                    <p class="ico">
+                                                        <img src="/assets/img/cart-delete-ico.svg" alt="delete icon">
+                                                    </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="info-area">
+                                            <div class="info-wrap">
+                                                <div class="title-wrap">
+                                                    <p class="title">
+                                                        판매가격
+                                                    </p>
+                                                </div>
+                                                <div class="text-wrap">
+                                                    <p class="text orange">
+                                                        13,310원
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="info-wrap">
+                                                <div class="title-wrap">
+                                                    <p class="title">
+                                                        재고
+                                                    </p>
+                                                </div>
+                                                <div class="text-wrap">
+                                                    <p class="text">
+                                                        10개
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cnt-area">
+                                        <div class="opt_count">
+                                            <button type="button" class="sit_qty_minus"><i class="fa fa-minus" aria-hidden="true"></i><span class="sound_only">감소</span></button>
+                                            <input type="text" value="1" id="ct_qty_0" class="num_input" size="5" readonly>
+                                            <button type="button" class="sit_qty_plus"><i class="fa fa-plus" aria-hidden="true"></i><span class="sound_only">증가</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cart-list-con">
+                            <div class="cart-list-inner">
+                                <div class="chk-btn-wrap">
+                                    <input type="checkbox" name="ct_chk[0]" value="1" id="ct_chk_0">
+                                    <label for="ct_chk_0">
+                                        <span class="chk_img"></span>
+                                    </label>
+                                </div>
+                                <div class="left">
+                                    <div class="thumb-area">
+                                        <div class="thumb-wrap">
+                                            <p class="thumb">
+                                                <img src="/assets/img/thumb-dummy.png" alt="thumbnail">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="content-text-area">
+                                        <div class="subject-area">
+                                            <div class="subject-wrap">
+                                                <p class="subject">
+                                                    <a href="#;">
+                                                        <strong>[베토퀴놀] 레날케이 칼륨 보충제</strong>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="delete-btn-wrap">
+                                                <a class="button">
+                                                    <p class="ico">
+                                                        <img src="/assets/img/cart-delete-ico.svg" alt="delete icon">
+                                                    </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="info-area">
+                                            <div class="info-wrap">
+                                                <div class="title-wrap">
+                                                    <p class="title">
+                                                        판매가격
+                                                    </p>
+                                                </div>
+                                                <div class="text-wrap">
+                                                    <p class="text orange">
+                                                        13,310원
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="info-wrap">
+                                                <div class="title-wrap">
+                                                    <p class="title">
+                                                        재고
+                                                    </p>
+                                                </div>
+                                                <div class="text-wrap">
+                                                    <p class="text">
+                                                        10개
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cnt-area">
+                                        <div class="opt_count">
+                                            <button type="button" class="sit_qty_minus"><i class="fa fa-minus" aria-hidden="true"></i><span class="sound_only">감소</span></button>
+                                            <input type="text" value="1" id="ct_qty_0" class="num_input" size="5" readonly>
+                                            <button type="button" class="sit_qty_plus"><i class="fa fa-plus" aria-hidden="true"></i><span class="sound_only">증가</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="total-price-area">
+                    <div class="content-text-area">
+                        <div class="text-wrap">
+                            <p class="text">
+                                여러 상품을 한번에 구입하신 후 , 일부 상품 환불을 원할시 부분결제 취소가 불가하며 주문 전체가 취소될 수 있습니다.
+                            </p>
+                            <p class="text">
+                                상품의 재고가 0개인 경우, 약국 도매상의 재고 여부에 따라 품절될 수 있습니다. (상품 결제 후, 주문 상세 페이지에서 픽업 가능 시간을 확인할 수 있습니다.)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="price-area">
+                        <div class="text-wrap">
+                            <p class="title">
+                                총 결제 금액
+                            </p>
+                            <p class="price">
+                                31,400원
+                            </p>
+                        </div>
+                    </div>
+                    <div class="btn-area">
+                        <div class="btn-wrap">
+                            <!-- disabled class 추가 시 비활성화 -->
+                            <a href="#;" class="g-btn disabled">
+                                <p class="text">
+                                    주문하기
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="g-separator">line</p>
+        <div class="order-guide">
+            <div class="guide-area">
+                <div class="top-title-area">
+                    <div class="title-wrap">
+                        <p class="title">
+                            주문 재고 가이드
+                        </p>
+                    </div>
+                </div>
+                <div class="guide-list-area">
+                    <ul class="list-wrap">
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <div class="title-wrap">
+                                    <p class="title">
+                                        준비중
+                                    </p>
+                                </div>
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        재고 없음
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <div class="title-wrap">
+                                    <p class="title">
+                                        품절
+                                    </p>
+                                </div>
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        발주 완료, 도매상 품절
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <div class="title-wrap">
+                                    <p class="title">
+                                        판매하지 않음
+                                    </p>
+                                </div>
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        해당 약국에서 취급하지 않는 상품
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="ft-area">
+            <div class="ft-wrap">
+                <div class="info-area">
+                    <div class="title-wrap">
+                        <p class="title">
+                            pevo Shop 정보
+                        </p>
+                    </div>
+                    <div class="text-wrap">
+                        <p class="text">
+                            <span>대표 : 김상현</span><br>
+                            <span>주소 : 경기도 성남시 수정구 대왕판교로 815, 7층 775호</span><br>
+                            <span>전화 : 02-6953-0970</span> <span>팩스 : </span> <span>사업자 등록번호 : 728-86-01455</span><br>
+                            <span>통신판매업신고번호 : 2020-성남분당A-0580</span><br>
+                            <span>개인정보 보호책임자 : 김상현</span><br>
+                        </p>
+                    </div>
+                </div>
+                <nav class="etc">
+                    <ul class="list-wrap">
+                        <li class="list-con">
+                            <a href="#;" class="link">
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        회사소개
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-con">
+                            <a href="#;" class="link">
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        개인정보
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-con">
+                            <a href="#;" class="link">
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        이용약관
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <small class="copyright">
+                    Copyright © 2019-2022 (주)디디케어스. All Rights Reserved.
+                </small>
+            </div>
+        </div>
+    </footer>
+    <!-- // footer -->
+</body>
+</html>

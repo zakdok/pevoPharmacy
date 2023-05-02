@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=“UTF-8”>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="//cdn.jsdelivr.net/npm/swiper@8.3.1/swiper-bundle.min.js"></script>
+    <title>pevo pharm</title>
+    <link rel="stylesheet" href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css?1668500046">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper@8.3.1/swiper.min.css?1668497615">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/sub.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="hd-area hd-layout">
+            <div class="hd-wrap">
+                <div class="left">
+                    <h1 class="logo"><a href="/"><img src="/assets/img/logo.svg" alt="PEVO pharm 메인"></a></h1>
+                </div>
+                <div class="right">
+                    <nav class="location-area">
+                        <ul class="list-wrap">
+                            <li class="list-con" id="btn_sch">
+                                <a href="#;" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_search.svg" alt="search icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-con">
+                                <a href="#;" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_cart.svg" alt="cart icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-con">
+                                <a href="javascript:void(0);" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_menu.svg" alt="menu icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- // header -->
+    <div id="container" class="container">
+        <div class="pickup">
+            <div class="g-search-area">
+                <div class="g-search-wrap">
+                    <div class="ico-wrap">
+                        <p class="ico"><img src="/assets/img/search-ico.svg" alt="search"></p>
+                    </div>
+                    <div class="input-wrap">
+                        <input type="search" placeholder="지역, 약국명으로 검색">
+                    </div>
+                </div>
+            </div>
+            <nav class="g-lnb">
+                <ul class="dep1-wrap">
+                    <!-- active class 추가 시 활성화 -->
+                    <li class="dep1-con active">
+                        <a href="#;" class="dep1">
+                            <p class="text">
+                                가까운 거리순
+                            </p>
+                        </a>
+                    </li>
+                    <li class="dep1-con">
+                        <a href="#;" class="dep1">
+                            <p class="text">
+                                최근 방문
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="pickup-list-area">
+                <ul class="list-wrap">
+                    <li class="list-con active">
+                        <div class="list-inner">
+                            <div class="content-text-area">
+                                <div class="subject-area">
+                                    <div class="left">
+                                        <div class="ico-wrap">
+                                            <input type="checkbox" name="ct_chk[0]" id="ct_chk[0]">
+                                            <label for="ct_chk[0]">check icon</label>
+                                        </div>
+                                        <div class="subject-wrap">
+                                            <p class="subject">
+                                                서울약국
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="btn-wrap">
+                                            <a href="#;" class="btn">
+                                                <p class="ico"><img src="/assets/img/pickup-map-ico.svg" alt="map icon"></p>
+                                                <p class="text">
+                                                    지도보기
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-area">
+                                    <div class="text-wrap">
+                                        <p class="length">
+                                            200m
+                                        </p>
+                                        <p class="address">
+                                            서울 노원구 중계동 591 대호프라자 319호
+                                        </p>
+                                        <p class="time">
+                                            09:00 ~ 18:00 (운영중)
+                                        </p>
+                                        <p class="tel">
+                                            <a href="tel:02-555-5555">
+                                                02-555-5555
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="toggle-outer">
+                                <div class="toggle-title-area">
+                                    <div class="title-wrap">
+                                        <p class="title">
+                                            주문 가능 상품
+                                        </p>
+                                    </div>
+                                    <div class="btn-wrap">
+                                        <!-- 버튼 클릭 시 orange class remove -->
+                                        <p class="text orange">
+                                            전체 주문 가능
+                                        </p>
+                                        <!-- 해당 element 클릭 시 toggle, active class toggle(arrow icon css 제어) -->
+                                        <a href="#;" class="btn">
+                                            <p class="ico"><img src="/assets/img/pickup-toggle-arrow-ico.svg" alt="arrow icon"></p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 버튼 클릭 시 해당 영역 toggle -->
+                                <div class="product-list-area">
+                                    <ul class="product-list-wrap">
+                                        <!-- disabled class 추가 시 비활성화 -->
+                                        <li class="product-list-con">
+                                            <div class="product-list-inner">
+                                                <div class="left">
+                                                    <div class="thumb-area">
+                                                        <div class="thumb-wrap">
+                                                            <p class="thumb">
+                                                                <img src="/assets/img/thumb-dummy.png" alt="thumbnail">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <div class="product-text-area">
+                                                        <div class="subject-wrap">
+                                                            <p class="subject">
+                                                                상품명
+                                                            </p>
+                                                        </div>
+                                                        <div class="qty-wrap">
+                                                            <p class="text">
+                                                                재고: 5개
+                                                            </p>
+                                                        </div>
+                                                        <div class="price-wrap">
+                                                            <p class="price">
+                                                                11,900원
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="product-list-con">
+                                            <div class="product-list-inner">
+                                                <div class="left">
+                                                    <div class="thumb-area">
+                                                        <div class="thumb-wrap">
+                                                            <p class="thumb">
+                                                                <img src="/assets/img/thumb-dummy.png" alt="thumbnail">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <div class="product-text-area">
+                                                        <div class="subject-wrap">
+                                                            <p class="subject">
+                                                                상품명
+                                                            </p>
+                                                        </div>
+                                                        <div class="qty-wrap">
+                                                            <p class="text">
+                                                                재고: 5개
+                                                            </p>
+                                                        </div>
+                                                        <div class="price-wrap">
+                                                            <p class="price">
+                                                                11,900원
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="product-list-con">
+                                            <div class="product-list-inner">
+                                                <div class="left">
+                                                    <div class="thumb-area">
+                                                        <div class="thumb-wrap">
+                                                            <p class="thumb">
+                                                                <img src="/assets/img/thumb-dummy.png" alt="thumbnail">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <div class="product-text-area">
+                                                        <div class="subject-wrap">
+                                                            <p class="subject">
+                                                                상품명
+                                                            </p>
+                                                        </div>
+                                                        <div class="qty-wrap">
+                                                            <p class="text">
+                                                                재고: 5개
+                                                            </p>
+                                                        </div>
+                                                        <div class="price-wrap">
+                                                            <p class="price">
+                                                                11,900원
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-con">
+                        <div class="list-inner">
+                            <div class="content-text-area">
+                                <div class="subject-area">
+                                    <div class="left">
+                                        <div class="ico-wrap">
+                                            <input type="checkbox" name="ct_chk[0]" id="ct_chk[0]">
+                                            <label for="ct_chk[0]">check icon</label>
+                                        </div>
+                                        <div class="subject-wrap">
+                                            <p class="subject">
+                                                서울약국
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="btn-wrap">
+                                            <a href="#;" class="btn">
+                                                <p class="ico"><img src="/assets/img/pickup-map-ico.svg" alt="map icon"></p>
+                                                <p class="text">
+                                                    지도보기
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-area">
+                                    <div class="text-wrap">
+                                        <p class="length">
+                                            200m
+                                        </p>
+                                        <p class="address">
+                                            서울 노원구 중계동 591 대호프라자 319호
+                                        </p>
+                                        <p class="time">
+                                            09:00 ~ 18:00 (운영중)
+                                        </p>
+                                        <p class="tel">
+                                            <a href="tel:02-555-5555">
+                                                02-555-5555
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="toggle-outer">
+                                <div class="toggle-title-area">
+                                    <div class="title-wrap">
+                                        <p class="title">
+                                            주문 가능 상품
+                                        </p>
+                                    </div>
+                                    <div class="btn-wrap">
+                                        <!-- 버튼 클릭 시 orange class remove -->
+                                        <p class="text orange">
+                                            전체 주문 가능
+                                        </p>
+                                        <!-- 해당 element 클릭 시 toggle -->
+                                        <a href="#;" class="btn">
+                                            <p class="ico"><img src="/assets/img/pickup-toggle-arrow-ico.svg" alt="arrow icon"></p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 버튼 클릭 시 해당 영역 toggle -->
+                                <div class="product-list-area">
+                                    <ul class="product-list-wrap">
+                                        <!-- disabled class 추가 시 비활성화 -->
+                                        <li class="product-list-con">
+                                            <div class="product-list-inner">
+                                                <div class="left">
+                                                    <div class="thumb-area">
+                                                        <div class="thumb-wrap">
+                                                            <p class="thumb">
+                                                                <img src="/assets/img/thumb-dummy.png" alt="thumbnail">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <div class="product-text-area">
+                                                        <div class="subject-wrap">
+                                                            <p class="subject">
+                                                                상품명
+                                                            </p>
+                                                        </div>
+                                                        <div class="qty-wrap">
+                                                            <p class="text">
+                                                                재고: 5개
+                                                            </p>
+                                                        </div>
+                                                        <div class="price-wrap">
+                                                            <p class="price">
+                                                                11,900원
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="product-list-con">
+                                            <div class="product-list-inner">
+                                                <div class="left">
+                                                    <div class="thumb-area">
+                                                        <div class="thumb-wrap">
+                                                            <p class="thumb">
+                                                                <img src="/assets/img/thumb-dummy.png" alt="thumbnail">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <div class="product-text-area">
+                                                        <div class="subject-wrap">
+                                                            <p class="subject">
+                                                                상품명
+                                                            </p>
+                                                        </div>
+                                                        <div class="qty-wrap">
+                                                            <p class="text">
+                                                                재고: 5개
+                                                            </p>
+                                                        </div>
+                                                        <div class="price-wrap">
+                                                            <p class="price">
+                                                                11,900원
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="product-list-con">
+                                            <div class="product-list-inner">
+                                                <div class="left">
+                                                    <div class="thumb-area">
+                                                        <div class="thumb-wrap">
+                                                            <p class="thumb">
+                                                                <img src="/assets/img/thumb-dummy.png" alt="thumbnail">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <div class="product-text-area">
+                                                        <div class="subject-wrap">
+                                                            <p class="subject">
+                                                                상품명
+                                                            </p>
+                                                        </div>
+                                                        <div class="qty-wrap">
+                                                            <p class="text">
+                                                                재고: 5개
+                                                            </p>
+                                                        </div>
+                                                        <div class="price-wrap">
+                                                            <p class="price">
+                                                                11,900원
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- disabled class 추가 시 비활성화 -->
+            <a href="#;" class="g-btn">
+                <p class="text">
+                    약국 선택
+                </p>
+            </a>
+        </div>
+    </div>
+    <!-- layer popup -->
+    <!-- active class 추가 시 노출 -->
+    <div class="common-layer-popup">
+        <div class="popup-area">
+            <div class="popup-wrap">
+                <div class="popup-content-area">
+                    <div class="content-text-area">
+                        <div class="text-wrap">
+                            <p class="text">
+                                해당 약국은 일부 상품이 품절되었습니다.<br>
+                                재고가 있는 상품만 픽업하시겠어요?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-footer-area">
+                    <div class="btn-area">
+                        <div class="btn-wrap">
+                            <a href="#;" class="button gray">
+                                아니요
+                            </a>
+                        </div>
+                        <div class="btn-wrap">
+                            <a href="#;" class="button orange">
+                                아니요
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // layer popup -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="ft-area">
+            <div class="ft-wrap">
+                <div class="info-area">
+                    <div class="title-wrap">
+                        <p class="title">
+                            pevo Shop 정보
+                        </p>
+                    </div>
+                    <div class="text-wrap">
+                        <p class="text">
+                            <span>대표 : 김상현</span><br>
+                            <span>주소 : 경기도 성남시 수정구 대왕판교로 815, 7층 775호</span><br>
+                            <span>전화 : 02-6953-0970</span> <span>팩스 : </span> <span>사업자 등록번호 : 728-86-01455</span><br>
+                            <span>통신판매업신고번호 : 2020-성남분당A-0580</span><br>
+                            <span>개인정보 보호책임자 : 김상현</span><br>
+                        </p>
+                    </div>
+                </div>
+                <nav class="etc">
+                    <ul class="list-wrap">
+                        <li class="list-con">
+                            <a href="#;" class="link">
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        회사소개
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-con">
+                            <a href="#;" class="link">
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        개인정보
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-con">
+                            <a href="#;" class="link">
+                                <div class="text-wrap">
+                                    <p class="text">
+                                        이용약관
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <small class="copyright">
+                    Copyright © 2019-2022 (주)디디케어스. All Rights Reserved.
+                </small>
+            </div>
+        </div>
+    </footer>
+    <!-- // footer -->
+</body>
+</html>

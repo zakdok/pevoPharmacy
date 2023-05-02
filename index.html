@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=“UTF-8”>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="/assets/plugin/jquery-1.11.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/swiper@8.3.1/swiper-bundle.min.js"></script>
+    <title>pevo pharm</title>
+    <link rel="stylesheet" href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css?1668500046">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper@8.3.1/swiper.min.css?1668497615">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/sub.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="hd-area hd-layout">
+            <div class="hd-wrap">
+                <div class="left">
+                    <h1 class="logo"><a href="/"><img src="/assets/img/logo.svg" alt="PEVO pharm 메인"></a></h1>
+                </div>
+                <div class="right">
+                    <nav class="location-area">
+                        <ul class="list-wrap">
+                            <li class="list-con" id="btn_sch">
+                                <a href="#;" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_search.svg" alt="search icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-con">
+                                <a href="#;" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_cart.svg" alt="cart icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-con">
+                                <a href="javascript:void(0);" class="link">
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/hd_menu.svg" alt="menu icon"></p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- // header -->
+    <!-- gnb -->
+    <!-- active class 추가 시 노출 -->
+    <div id="gnb" class="">
+        <div class="gnb-area">
+            <div class="hd-area hd-layout">
+                <div class="hd-wrap">
+                    <h1 class="logo"><a href="/"><img src="/assets/img/logo.svg" alt="PEVO pharm 메인"></a></h1>
+                    <div class="close-button-area">
+                        <div class="button-wrap">
+                            <button class="button"><img src="/assets/img/hd_close.svg" alt="close"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ct-area">
+                <nav class="gnb-menu">
+                    <ul class="dep1-wrap">
+                        <li class="dep1-con">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico11.svg');">icon</p>
+                                <p class="text">항생제</p>
+                            </a>
+                        </li>
+                        <li class="dep1-con">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico12.svg');">icon</p>
+                                <p class="text">심장사상충</p>
+                            </a>
+                        </li>
+                        <li class="dep1-con">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico13.svg');">icon</p>
+                                <p class="text">백내장/녹내장</p>
+                            </a>
+                        </li>
+                        <li class="dep1-con">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico14.svg');">icon</p>
+                                <p class="text">구강관리</p>
+                            </a>
+                        </li>
+                        <li class="dep1-con">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico15.svg');">icon</p>
+                                <p class="text">관절질환</p>
+                            </a>
+                        </li>
+                        <li class="dep1-con">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico16.svg');">icon</p>
+                                <p class="text">항생제</p>
+                            </a>
+                        </li>
+                        <li class="dep1-con">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico17.svg');">icon</p>
+                                <p class="text">발/피부</p>
+                            </a>
+                        </li>
+                        <li class="dep1-con">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico18.svg');">icon</p>
+                                <p class="text">간건강</p>
+                            </a>
+                        </li>
+                        <li class="dep1-con bottom-fixed">
+                            <a href="#;" class="dep1">
+                                <p class="icon" style="background-image:url('/assets/img/gnb-ico-home.svg');">icon</p>
+                                <p class="text">약국 홈으로</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- // gnb -->
+    <!-- search -->
+    <!-- actvie class 추가 시 노출 -->
+    <div class="search-form-area">
+        <div class="saerch-form-wrap">
+            <div class="hd-area">
+                <form>
+                    <div class="hd-wrap">
+                        <div class="button-wrap">
+                            <a href="#;" class="button">
+                                <p class="ico"><img src="/assets/img/arrow_left.svg" alt="history back icon"></p>
+                            </a>
+                        </div>
+                        <div class="input-wrap">
+                            <div class="input-con">
+                                <input type="text" placeholder="우리 아이 관절염 치료제, 20% 할인중!">
+                            </div>
+                            <div class="submit-con">
+                                <button type="submit">
+                                    <p class="ico"><img src="/assets/img/hd_search_submit.svg" alt="search icon"></p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="ct-area">
+                <div class="ct-wrap">
+                    <!-- 최근 검색어 -->
+                    <div class="keyword-area">
+                        <div class="title-area">
+                            <div class="title-wrap">
+                                <p class="title">
+                                    최근 검색어
+                                </p>
+                            </div>
+                            <div class="button-wrap">
+                                <button class="button">
+                                    모두 지우기
+                                </button>
+                            </div>
+                        </div>
+                        <div class="keyword-list-area">
+                            <ul class="list-wrap">
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                관절염
+                                            </a>
+                                        </div>
+                                        <div class="button-wrap">
+                                            <button class="button">
+                                                <p class="ico"><img src="/assets/img/delete-btn-ico.svg" alt="delete"></p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                피부질환연고
+                                            </a>
+                                        </div>
+                                        <div class="button-wrap">
+                                            <button class="button">
+                                                <p class="ico"><img src="/assets/img/delete-btn-ico.svg" alt="delete"></p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                애견지혈약품
+                                            </a>
+                                        </div>
+                                        <div class="button-wrap">
+                                            <button class="button">
+                                                <p class="ico"><img src="/assets/img/delete-btn-ico.svg" alt="delete"></p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- // 최근 검색어 -->
+                    <!-- 인기 검색어 -->
+                    <div class="keyword-area">
+                        <div class="title-area">
+                            <div class="title-wrap">
+                                <p class="title">
+                                    인기 검색어
+                                </p>
+                            </div>
+                        </div>
+                        <div class="keyword-list-area">
+                            <ul class="list-wrap">
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                검색어
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                검색어
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                검색어
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                검색어
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                검색어
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-con">
+                                    <div class="list-inner">
+                                        <div class="text-wrap">
+                                            <a href="#;" class="keyword">
+                                                검색어
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- // 인기 검색어 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // search -->
+    <!-- main -->
+    <div id="container" class="container">
+        <article id="mv">
+            <div class="swiper slide-area">
+                <div class="swiper-wrapper slide-wrap">
+                    <div class="swiper-slide slide-con">
+                        <div class="slide-inner">
+                            <div class="bg-area">
+                                <div class="bg-wrap">
+                                    <p class="bg" style="background-image:url('/assets/img/mv11.png');">background image</p>
+                                </div>
+                            </div>
+                            <div class="content-text-area">
+                                <div class="text-area">
+                                    <div class="text-wrap">
+                                        <p class="text">
+                                            마케팅 배너 문구를<br>
+                                            입력해주세요
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-con">
+                        <div class="slide-inner">
+                            <div class="bg-area">
+                                <div class="bg-wrap">
+                                    <p class="bg" style="background-image:url('/assets/img/mv11.png');">background image
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-text-area">
+                                <div class="text-area">
+                                    <div class="text-wrap">
+                                        <p class="text">
+                                            마케팅 배너 문구를<br>
+                                            입력해주세요
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-con">
+                        <div class="slide-inner">
+                            <div class="bg-area">
+                                <div class="bg-wrap">
+                                    <p class="bg" style="background-image:url('/assets/img/mv11.png');">background image
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-text-area">
+                                <div class="text-area">
+                                    <div class="text-wrap">
+                                        <p class="text">
+                                            마케팅 배너 문구를<br>
+                                            입력해주세요
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </article>
+        <script>
+        var mainVisual = new Swiper("#mv .slide-area", {
+            slidesPerView: 1,
+            loop: true,
+            loopedSlides: 1,
+            spaceBetween: 10,
+            loopAdditionalSlides: 0,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: "#mv .swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+        </script>
+        <section class="m-area">
+            <article class="m-cate">
+                <div class="list-area">
+                    <ul class="list-wrap">
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <a href="#;" class="link">
+                                    <div class="content-text-area">
+                                        <div class="text-wrap">
+                                            <p class="text">
+                                                구강관리 용품 구경하기
+                                            </p>
+                                        </div>
+                                        <div class="title-wrap">
+                                            <p class="title">
+                                                우리 아이에게 눈물이 많다면?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ico-area">
+                                        <div class="ico-wrap">
+                                            <p class="ico"><img src="/assets/img/m-cate-ico11.svg" alt="icon"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <a href="#;" class="link">
+                                    <div class="content-text-area">
+                                        <div class="text-wrap">
+                                            <p class="text">
+                                                텍스트를 입력해주세요.
+                                            </p>
+                                        </div>
+                                        <div class="title-wrap">
+                                            <p class="title">
+                                                텍스트를 입력해주세요.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ico-area">
+                                        <div class="ico-wrap">
+                                            <p class="ico"><img src="/assets/img/m-cate-ico12.svg" alt="icon"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <a href="#;" class="link">
+                                    <div class="content-text-area">
+                                        <div class="text-wrap">
+                                            <p class="text">
+                                                텍스트를 입력해주세요.
+                                            </p>
+                                        </div>
+                                        <div class="title-wrap">
+                                            <p class="title">
+                                                텍스트를 입력해주세요.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ico-area">
+                                        <div class="ico-wrap">
+                                            <p class="ico"><img src="/assets/img/m-cate-ico13.svg" alt="icon"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <a href="#;" class="link">
+                                    <div class="content-text-area">
+                                        <div class="text-wrap">
+                                            <p class="text">
+                                                텍스트를 입력해주세요.
+                                            </p>
+                                        </div>
+                                        <div class="title-wrap">
+                                            <p class="title">
+                                                텍스트를 입력해주세요.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ico-area">
+                                        <div class="ico-wrap">
+                                            <p class="ico"><img src="/assets/img/m-cate-ico14.svg" alt="icon"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="m-tab-menu">
+                <div class="list-area">
+                    <ul class="list-wrap">
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <a href="#;" class="link">
+                                    <div class="title-wrap">
+                                        <p class="title">
+                                            주문 내역
+                                        </p>
+                                    </div>
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/m-tab-ico11.svg" alt="icon"></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <!-- active class 추가 시 활성화 -->
+                        <li class="list-con active">
+                            <div class="list-inner">
+                                <a href="#;" class="link">
+                                    <div class="title-wrap">
+                                        <p class="title">
+                                            내 픽업정보
+                                        </p>
+                                    </div>
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/m-tab-ico12.svg" alt="icon"></p>
+                                    </div>
+                                    <div class="badge-wrap">
+                                        <p class="text">
+                                            N
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <a href="#;" class="link">
+                                    <div class="title-wrap">
+                                        <p class="title">
+                                            위시리스트
+                                        </p>
+                                    </div>
+                                    <div class="ico-wrap">
+                                        <p class="ico"><img src="/assets/img/m-tab-ico13.svg" alt="icon"></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list-con">
+                            <div class="list-inner">
+                                <a href="#;" class="link">
+                                    <div class="title-wrap">
+                                        <p class="title">
+                                            내 포인트
+                                        </p>
+                                    </div>
+                                    <div class="ico-wrap">
+                                        <p class="text">
+                                            524 <span>P</span>
+                                        </p>
+                                        <p class="ico"><img src="/assets/img/m-tab-ico14.svg" alt="icon"></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </div>
+    <!-- // main -->
+</body>
+</html>
