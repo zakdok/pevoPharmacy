@@ -46,6 +46,13 @@ caption {overflow:hidden; line-height:0; font-size:0px; text-indent:-20000px;}
 table{width:100%;border-spacing:0;border-collapse:collapse;word-break:break-all;}
 table p{word-break:break-all;}
 img{max-width:100%;vertical-align:top;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden;}
+select{
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+  background: url([IMAGE]) no-repeat right [BACKGROUND-COLOR];
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 
 .clearfix::after{
     content: '';
