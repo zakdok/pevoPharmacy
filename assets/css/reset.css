@@ -49,7 +49,7 @@ img{max-width:100%;vertical-align:top;-webkit-backface-visibility:hidden;-moz-ba
 select{
   overflow: hidden;
   overflow: -moz-hidden-unscrollable;
-  background: url([IMAGE]) no-repeat right [BACKGROUND-COLOR];
+  background: url('../img/select-arrow.svg') no-repeat right white;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
