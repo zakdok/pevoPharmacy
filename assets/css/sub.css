@@ -865,10 +865,11 @@
     position: relative;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .cart-area .all-chk-area input{
     position: absolute;
-    left: 0;
+    left: -30px;
     top: 0;
     display: block;
     width: 0;
@@ -930,10 +931,11 @@
     position: absolute;
     left: 7px;
     top: 7px;
+    overflow: hidden;
 }
 .cart-area .cart-list-area .chk-btn-wrap input{
     position: absolute;
-    left: 0;
+    left: -44px;
     top: 0;
     width: 0;
     height: 0;
@@ -4152,10 +4154,11 @@
 .pickup .pickup-list-area .content-text-area .subject-area .ico-wrap{
     position: relative;
     margin-right: 7px;
+    overflow: hidden;
 }
 .pickup .pickup-list-area .content-text-area .subject-area .ico-wrap input{
     position: absolute;
-    left: 0;
+    left: -30px;
     top: 0;
     display: block;
     width: 0;
@@ -4997,7 +5000,7 @@
 .fullpage .bot-btn-area .toast-area .toast-wrap{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 22px;
     background-color: #212121;
     border-radius: 50px;
