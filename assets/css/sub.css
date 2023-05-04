@@ -932,6 +932,7 @@
     left: 7px;
     top: 7px;
     overflow: hidden;
+    z-index: 9;
 }
 .cart-area .cart-list-area .chk-btn-wrap input{
     position: absolute;
