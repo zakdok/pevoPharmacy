@@ -2284,6 +2284,7 @@
 .slide-nav{
     padding: 0 20px;
     border-bottom: 1px solid #DADCDE;
+    overflow: hidden;
 }
 .slide-nav .slide-area{
     overflow: visible;
