@@ -97,6 +97,7 @@
     color: #9E9E9E;
 }
 .m-col21{
+    position: relative;
     margin: 15px 0 0;
     padding: 14px 14px 39px;
     background: #FFFFFF;
@@ -178,6 +179,27 @@
     line-height: 20px;
     letter-spacing: -0.045em;
     color: #616161;
+}
+.m-col21 .view-btn-area{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.m-col21 .view-btn-area .btn-wrap{}
+.m-col21 .view-btn-area .btn-wrap .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-col21 .view-btn-area .btn-wrap .btn .ico{
+    margin-right: 1px;
+}
+.m-col21 .view-btn-area .btn-wrap .btn .ico img{}
+.m-col21 .view-btn-area .btn-wrap .btn .text{
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: -0.045em;
+    color: #9E9E9E;
 }
 .m-col22{
     margin: 15px 0 0;
