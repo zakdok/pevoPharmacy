@@ -5386,3 +5386,448 @@
      top: 2px;
 }
 /* // mypage */
+/* policy */
+.policy-area{
+    margin: 70px 0 0;
+}
+.policy-area .subscribe{}
+.policy-area .subscribe .area{}
+.policy-area .subscribe .area .policy-list-area{
+    margin: 50px auto 0;
+    display: none;
+}
+.policy-area .subscribe .area .policy-list-area .list-wrap{}
+.policy-area .subscribe .area .policy-list-area .list-con{
+    border-bottom: 1px solid #dadcde;
+}
+.policy-area .subscribe .area .policy-list-area .list-inner{}
+.policy-area .subscribe .area .policy-list-area .q-area{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.policy-area .subscribe .area .policy-list-area .text-area{}
+.policy-area .subscribe .area .policy-list-area .text-area .text-wrap{}
+.policy-area .subscribe .area .policy-list-area .text-area .text-wrap .text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #212121;
+    text-align: left;
+    text-indent: -24px;
+    padding-left: 24px;
+}
+.policy-list-area .list-wrap .list-con .list-inner .a-area .text-area .text-wrap{
+    font-size: 12px;
+    line-height: 14px;
+}
+.policy-list-area .list-wrap .list-con .list-inner .a-area .text-area .text-wrap h3{
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+.policy-area .subscribe .area .policy-list-area .ico-area{}
+.policy-area .subscribe .area .policy-list-area .ico-area .ico-wrap{}
+.policy-area .subscribe .area .policy-list-area .ico-area .ico-wrap .ico{}
+.policy-area .subscribe .area .policy-list-area .ico-area .ico-wrap .ico img{
+    transition: .25s;-moz-transition: .25s;-webkit-transition: .25s;-o-transition: .25s;
+}
+.policy-area .subscribe .area .policy-list-area .ico-area .ico-wrap .ico img{
+    transform: rotate(180deg);-moz-transform: rotate(180deg);-webkit-transform: rotate(180deg);-o-transform: rotate(180deg);
+}
+.policy-area .subscribe .area .policy-list-area .a-area{
+    display: none;
+    padding: 0 0 20px;
+}
+.policy-area .subscribe .area .policy-list-area .a-area .text-area{}
+.policy-area .subscribe .area .policy-list-area .a-area .text-area .text-wrap{}
+.policy-area .subscribe .area .policy-list-area .a-area .text-area .text-wrap .text{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #212121;
+}
+.policy-area .subscribe .area .policy-list-area .a-area .text-area .text-wrap .text .dot{
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+.policy-area .subscribe .area .policy-list-area .a-area .text-area .text-wrap .text .dot::before{
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #212121;
+    border-radius: 50%;
+}
+.policy-area .subscribe .area .policy-list-area .a-area .text-area .text-wrap .text em{
+    display: block;
+    color: #9E9E9E;
+}
+.policy-area .subscribe .area .policy-list-area .more-btn-wrap{
+    text-align: center;
+    padding: 30px 0;
+}
+.policy-area .subscribe .area .policy-list-area .more-btn-wrap .btn{}
+.policy-area .subscribe .area .policy-list-area .more-btn-wrap .btn .text{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #9E9E9E;
+}
+.policy-area .subscribe .area .product-list-area{
+    max-width: 1020px;
+    margin: 150px auto 0;
+    padding: 0 10px;
+}
+.policy-area .subscribe .area .product-list-area .list-wrap{
+    margin: 0 -13px;
+    text-align: center;
+    font-size: 0;
+}
+.policy-area .subscribe .area .product-list-area .list-con{
+    display: inline-block;
+    width: 20%;
+    padding: 0 13px;
+    vertical-align: text-top;
+}
+.policy-area .subscribe .area .product-list-area .list-inner{
+    position: relative;
+    height: 0;
+    padding-bottom: 91.3%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.policy-area .subscribe .area .product-list-area .link{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.policy-area .subscribe .area .product-list-area .link .badge-area{
+    position: absolute;
+    right: 14px;
+    top: 12px;
+}
+.policy-area .subscribe .area .product-list-area .link .badge-wrap{}
+.policy-area .subscribe .area .product-list-area .link .badge{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #9E9E9E;
+}
+.policy-area .subscribe .area .product-list-area .ico-area{}
+.policy-area .subscribe .area .product-list-area .ico-area .ico-wrap{}
+.policy-area .subscribe .area .product-list-area .ico-area .ico{}
+.policy-area .subscribe .area .product-list-area .ico-area .ico img{}
+.policy-area .subscribe .area .product-list-area .text-area{
+    margin: 20px 0 0;
+}
+.policy-area .subscribe .area .product-list-area .text-area .title-wrap{}
+.policy-area .subscribe .area .product-list-area .text-area .title-wrap .title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.policy-area .subscribe .area .product-list-area .text-area .text-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 0;
+}
+.policy-area .subscribe .area .product-list-area .text-area .text-wrap .text{
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #9E9E9E;
+}
+.policy-area.policy-sub .subscribe{
+    background-color: #fff;
+}
+.policy-area.policy-sub .subscribe .area{
+    max-width: 1052px;
+    margin: 0 auto;
+    padding: 0 26px;
+}
+.policy-area.policy-sub .subscribe .area .policy-list-area{}
+.policy-area.policy-sub .nav{
+    position: relative;
+}
+.policy-area.policy-sub .nav .nav-title-area{
+    display: none;
+}
+.policy-area.policy-sub .nav .nav-title-area .title-wrap{}
+.policy-area.policy-sub .nav .nav-title-area .title-wrap .btn{
+    display: flex;
+    align-items: center;
+}
+.policy-area.policy-sub .nav .nav-title-area .title-wrap .btn .title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #212121;
+    margin-right: 12px;
+}
+.policy-area.policy-sub .nav .nav-title-area .title-wrap .btn .ico{
+    transition: .25s;-moz-transition: .25s;-webkit-transition: .25s;-o-transition: .25s;
+}
+.policy-area.policy-sub .nav .nav-title-area .title-wrap .btn.active .ico{
+    transform: rotate(180deg);-moz-transform: rotate(180deg);-webkit-transform: rotate(180deg);-o-transform: rotate(180deg);
+}
+.policy-area.policy-sub .nav .nav-title-area .title-wrap .btn .ico img{}
+.policy-area.policy-sub .nav .dep1-wrap{
+    font-size: 0;
+    border: 1px solid #d2d6db;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.policy-area.policy-sub .nav .dep1-con{
+    display: inline-block;
+    width: 20%;
+    vertical-align: text-top;
+    border-right: 1px solid #d2d6db;
+}
+.policy-area.policy-sub .nav .dep1-con:last-child{
+    border-right-width: 0;
+}
+.policy-area.policy-sub .nav .dep1-con .dep1{
+    display: flex;
+    width: 100%;
+    height: 68px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #9E9E9E;
+    transition: .25s;
+}
+.policy-area.policy-sub .nav .dep1-con.active .dep1,
+.policy-area.policy-sub .nav .dep1-con .dep1:hover{
+    background-color: #eee;
+    color: #000;
+}
+.policy-area.policy-sub .nav-m{}
+.policy-area.policy-sub .nav-m .slide-area{}
+.policy-area.policy-sub .nav-m .slide-area::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+}
+.policy-area.policy-sub .nav-m .slide-wrap{}
+.policy-area.policy-sub .nav-m .slide-con{
+    width: auto !important;
+}
+.policy-area.policy-sub .nav-m .dep1{
+    display: block;
+    padding: 17px 4px 15px;
+    border-bottom: 2px solid #eee;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #DADCDE;
+}
+.policy-area.policy-sub .nav-m .active .dep1{
+    border-bottom-color: #212121;
+    color: #212121;
+}
+.policy-area.policy-sub .nav-list-area{}
+.policy-area.policy-sub .nav-list-wrap{}
+.policy-area.policy-sub .nav-list-con{
+    display: none;
+}
+.policy-area.policy-sub .nav-list-con:first-child{
+    display: block;
+}
+.policy-area.policy-sub .nav-list-title{
+    margin: 80px 0 50px;
+}
+.policy-area.policy-sub .nav-list-title .title-wrap{}
+.policy-area.policy-sub .nav-list-title .title-wrap .title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: #1A1E27;
+}
+.policy-area.policy-sub .pagination-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin: 80px 0 0;
+}
+.policy-area.policy-sub .pagination-area .arrow-btn{
+    display: flex;
+    width: 30px;
+    height: 36px;
+    align-items: center;
+}
+.policy-area.policy-sub .pagination-area .arrow-btn.prev{
+    justify-content: flex-start;
+}
+.policy-area.policy-sub .pagination-area .arrow-btn.next{
+    justify-content: flex-end;
+}
+.policy-area.policy-sub .pagination-area .arrow-btn img{}
+.policy-area.policy-sub .pagination-area .num-btn-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.policy-area.policy-sub .pagination-area .num-btn-area .btn{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.045em;
+    color: #9E9E9E;
+    transition: .25s;
+}
+.policy-area.policy-sub .pagination-area .num-btn-area .btn.active,
+.policy-area.policy-sub .pagination-area .num-btn-area .btn:hover{
+    color: #212121;
+}
+
+@media all and (min-width: 1021px){
+    .policy-area.policy-sub .nav .dep1-wrap{
+        display: block !important;
+    }    
+}
+
+@media all and (max-width: 1020px){
+    .policy-area{
+        margin: 0;
+    }
+    .policy-area.policy-sub .nav{
+        position: relative;
+        margin-bottom: 36px;
+    }
+    .policy-area.policy-sub .nav .nav-title-area{
+        display: block;
+    }
+    .policy-area.policy-sub .nav .dep1-wrap{
+        position: relative;
+        left: 0;
+        top: 100%;
+        width: 100%;
+    }
+    .policy-area.policy-sub .nav .dep1-con{
+        width: 33.3%;
+        border-right-width: 0;
+        border-bottom: 1px solid #d2d6db;
+        background-color: #fff;
+    }
+    .policy-area.policy-sub .nav .dep1-con:last-child{
+        border-bottom-width: 0;
+    }
+    .policy-area.policy-sub .nav .dep1-con .dep1{
+        height: 50px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .policy-area.policy-sub .nav-list-title{
+        display: block;
+        margin: 30px 0;
+    }
+
+    .policy-area.policy-sub .nav-list-title .title-wrap .title{
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+@media all and (max-width: 768px){
+    .policy-area .subscribe .area .policy-list-area{
+        margin: 30px 0 0;
+    }
+    .policy-area .subscribe .area .policy-list-area {
+        height: auto;
+    }
+    .policy-area .subscribe .area .policy-list-area .ico-area .ico-wrap .ico img{
+        width: 8px;
+    }
+    .policy-area .subscribe .area .policy-list-area .text-area .text-wrap .text{
+        font-size: 17px;
+        line-height: 24px;
+        text-indent: -17px;
+        padding-left: 17px;
+    }
+    .policy-area .subscribe .area .policy-list-area .a-area .text-area .text-wrap .text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .policy-area .subscribe .area .policy-list-area .a-area .text-area .text-wrap .text .dot::before{
+        top: 8px;
+    }
+    .policy-area .subscribe .area .policy-list-area .more-btn-wrap{
+        padding: 8px 0;
+        margin: 20px 0 0;
+    }
+    .policy-area .subscribe .area .product-list-area{
+        max-width: 320px;
+        margin: 60px auto 0;
+        padding: 0;
+    }
+    .policy-area .subscribe .area .product-list-area .list-wrap{
+        margin: -16px -16px 0 0;
+    }
+    .policy-area .subscribe .area .product-list-area .list-con{
+        width: 50%;
+        padding: 16px 16px 0 0;
+    }
+    .policy-area .subscribe .area .product-list-area .list-inner{
+        padding-bottom: 113.8157%;
+    }
+    .policy-area .subscribe .area .product-list-area .ico-area .ico img{
+        width: 45px;
+    }
+    .policy-area .subscribe .area .product-list-area .text-area .title-wrap .title{
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .policy-list-area .list-wrap .list-con .list-inner .a-area .text-area .text-wrap{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .policy-list-area .list-wrap .list-con .list-inner .a-area .text-area .text-wrap h3{
+        line-height: 25px;
+        padding: 10px 0;
+    }    
+}
+/* // policy */
