@@ -5439,7 +5439,6 @@
     transform: rotate(180deg);-moz-transform: rotate(180deg);-webkit-transform: rotate(180deg);-o-transform: rotate(180deg);
 }
 .policy-area .subscribe .area .policy-list-area .a-area{
-    display: none;
     padding: 0 0 20px;
 }
 .policy-area .subscribe .area .policy-list-area .a-area .text-area{}
