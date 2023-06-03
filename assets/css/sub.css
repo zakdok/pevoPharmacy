@@ -5830,3 +5830,174 @@
     }    
 }
 /* // policy */
+/* map */
+.map{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+.map .map-header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 16px;
+}
+.map .map-header .left{
+    padding-top: 2px;
+}
+.map .map-header .back-btn-area{}
+.map .map-header .back-btn-area .btn-wrap{}
+.map .map-header .back-btn-area .btn-wrap .btn{}
+.map .map-header .back-btn-area .btn-wrap .btn .ico{}
+.map .map-header .back-btn-area .btn-wrap .btn .ico img{}
+.map .map-header .right{
+    padding-top: 5px;
+}
+.map .map-header .gps-btn-area{}
+.map .map-header .gps-btn-area .btn-wrap{}
+.map .map-header .gps-btn-area .btn-wrap .btn{
+    display: flex;
+    width: 97px;
+    height: 34px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #DADCDE;
+    border-radius: 50px;
+}
+.map .map-header .gps-btn-area .btn-wrap .btn .ico{
+    margin-right: 6px;
+}
+.map .map-header .gps-btn-area .btn-wrap .btn .ico img{}
+.map .map-header .gps-btn-area .btn-wrap .btn .text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.045em;
+    color: #616161;
+    white-space: nowrap;
+}
+.map .map-bg{}
+.map .map-bg .bg-area{}
+.map .map-bg .bg-area #map{}
+.map .marker-info-area{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px 30px;
+}
+.map .marker-info-area .content-text-area{
+    background: #FFFFFF;
+    border: 1px solid #DADCDE;
+    border-radius: 30px;
+    padding: 30px;
+}
+.map .marker-info-area .content-text-area .title-area{}
+.map .marker-info-area .content-text-area .title-area .title-wrap{
+    display: flex;
+    align-items: center;
+}
+.map .marker-info-area .content-text-area .title-area .title-wrap .title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.045em;
+    color: #212121;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+.map .marker-info-area .content-text-area .title-area .title-wrap .text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.045em;
+    color: #616161;
+    white-space: nowrap;
+}
+.map .marker-info-area .content-text-area .text-area{
+    margin: 8px 0 0;
+}
+.map .marker-info-area .content-text-area .text-area .text-wrap{
+    display: flex;
+    align-items: center;
+}
+.map .marker-info-area .content-text-area .text-area .text-wrap .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.045em;
+    color: #212121;
+}
+.map .marker-info-area .content-text-area .text-area .text-wrap .dot{
+    width: 3px;
+    height: 3px;
+    margin: 0 5px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+.map .marker-info-area .content-text-area .text-area .text-wrap .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.045em;
+    color: #616161;
+}
+.map .marker-info-area .content-text-area .info-area{
+    margin: 8px 0 0;
+}
+.map .marker-info-area .content-text-area .info-area .info-wrap{
+    display: flex;
+    align-items: center;
+}
+.map .marker-info-area .content-text-area .info-area .info-wrap .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.045em;
+    color: #212121;
+}
+.map .marker-info-area .content-text-area .info-area .info-wrap .line{
+    width: 1px;
+    height: 12px;
+    background-color: #d9d9d9;
+    margin: 0 5px;
+    text-indent: -9999px;
+}
+.map .marker-info-area .content-text-area .info-area .info-wrap .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.045em;
+    color: #212121;
+}
+.map .marker-info-area .content-text-area .addr-area{
+    margin: 8px 0 0;
+}
+.map .marker-info-area .content-text-area .addr-area .addr-wrap{
+    display: flex;
+    align-items: center;
+}
+.map .marker-info-area .content-text-area .addr-area .addr-wrap .title{
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.045em;
+    color: #9E9E9E;
+}
+.map .marker-info-area .content-text-area .addr-area .addr-wrap .text{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.045em;
+    color: #616161;
+}
+/* // map */
