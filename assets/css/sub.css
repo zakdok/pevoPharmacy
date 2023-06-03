@@ -5934,6 +5934,7 @@
     line-height: 22px;
     letter-spacing: -0.045em;
     color: #212121;
+    white-space: nowrap;
 }
 .map .marker-info-area .content-text-area .text-area .text-wrap .dot{
     width: 3px;
@@ -5949,6 +5950,7 @@
     line-height: 22px;
     letter-spacing: -0.045em;
     color: #616161;
+    white-space: nowrap;
 }
 .map .marker-info-area .content-text-area .info-area{
     margin: 8px 0 0;
@@ -5963,6 +5965,7 @@
     line-height: 22px;
     letter-spacing: -0.045em;
     color: #212121;
+    white-space: nowrap;
 }
 .map .marker-info-area .content-text-area .info-area .info-wrap .line{
     width: 1px;
@@ -5977,6 +5980,7 @@
     line-height: 22px;
     letter-spacing: -0.045em;
     color: #212121;
+    white-space: nowrap;
 }
 .map .marker-info-area .content-text-area .addr-area{
     margin: 8px 0 0;
@@ -5992,6 +5996,7 @@
     line-height: 20px;
     letter-spacing: -0.045em;
     color: #9E9E9E;
+    white-space: nowrap;
 }
 .map .marker-info-area .content-text-area .addr-area .addr-wrap .text{
     font-weight: 500;
@@ -5999,5 +6004,6 @@
     line-height: 20px;
     letter-spacing: -0.045em;
     color: #616161;
+    white-space: nowrap;
 }
 /* // map */
