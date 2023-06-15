@@ -1,5 +1,5 @@
 .c-orange{
-    color: #ff6800 !important;
+    color: #06C755 !important;
 }
 .p-area{
     padding: 30px 20px;
@@ -41,7 +41,7 @@
     height: 56px;
     align-items: center;
     justify-content: center;
-    background-color: #FF6B00;
+    background-color: #06C755;
     border-radius: 7px;
     color: #FFFFFF;
 }
@@ -191,7 +191,7 @@
 .g-empty .btn-list-area .btn.orange{
     width: 100%;
     height: 56px;
-    background: #FF6B00;
+    background: #06C755;
     border-radius: 7px;
 }
 .g-empty .btn-list-area .btn .text{
@@ -290,10 +290,10 @@
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .product-descrtion-area .subject-area .ico-wrap .ico span.icon_best{
-    color: #4BBA54;
+    color: #FF6A00;
 }
 .product-descrtion-area .subject-area .brand-wrap{
     margin: 20px 0 0;
@@ -752,7 +752,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 #sit_ov .buy-pop-area #sit_tot_price .total-price-wrap .price span.num{
     margin-right: 3px;
@@ -792,7 +792,7 @@
 }
 #sit_ov .buy-pop-area #sit_ov_btn .btn_buy{
     color: #fff;
-    background-color: #ff6b00;
+    background-color: #06C755;
 }
 /* cart */
 .cart-area{
@@ -822,7 +822,7 @@
     font-size: 16px;
     line-height: 19px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .cart-area .select-pickup-area .pickup-wrap .title-area .text{
     font-weight: 500;
@@ -919,7 +919,7 @@
     border-radius: 10px;
 }
 .cart-area .cart-list-area .cart-list-con.active .cart-list-inner{
-    border-color: #ff6800;
+    border-color: #06C755;
 }
 .cart-area .cart-list-area .chk-btn-wrap{
     position: absolute;
@@ -1013,7 +1013,7 @@
     color: #232323;
 }
 .cart-area .cart-list-area .content-text-area .info-area .text-wrap .text.orange{
-    color: #FF6B00;
+    color: #06C755;
 }
 .cart-area .cart-list-area .cnt-area{}
 .cart-area .cart-list-area .cnt-area .opt_count{
@@ -1259,7 +1259,7 @@
     color: #FFFFFF;
 }
 .cart-area .total-order-area .order-btn-area .button.active{
-    background-color: #FF6B00;
+    background-color: #06C755;
 }
 .cart-area .cart-empty-con{
     padding: 50px 0 60px;
@@ -1293,7 +1293,7 @@
 .cart-area .cart-empty-con .text-area .btn-wrap .button{
     display: inline-block;
     padding: 18px 41px;
-    background-color: #ff6b00;
+    background-color: #06C755;
     border-radius: 7px;
     font-weight: 500;
     font-size: 16px;
@@ -1417,7 +1417,7 @@
 .order-form-area .addr-set-area .recent-empty-area .btn-area .button{
     display: inline-block;
     padding: 18px 48px;
-    background-color: #ff6b00;
+    background-color: #06C755;
     border-radius: 7px;
     font-weight: 500;
     font-size: 16px;
@@ -1564,7 +1564,7 @@
     font-size: 13px;
     line-height: 17px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .order-form-area .order-point-area .point-area .btn-area{
     margin: 17px 0 0;
@@ -1698,7 +1698,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 /* // order form */
 /* 배송지 관리 */
@@ -1797,13 +1797,13 @@
 .addr-set .addr-area .addr-list-area .title-area .badge-wrap .badge{
     display: inline-block;
     padding: 4px 9px;
-    border: 1px solid #ff6b00;
+    border: 1px solid #06C755;
     border-radius: 50px;
     font-weight: 500;
     font-size: 11px;
     line-height: 15px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .addr-set .addr-area .addr-list-area .text-area{
     margin: 10px 0 0;
@@ -1875,7 +1875,7 @@
     font-size: 25px;
     line-height: 31px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 
 }
 .point-area .point-sum-area{
@@ -2016,7 +2016,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .point-area .history-list-area .content-text-area .text-area{
     display: flex;
@@ -2172,7 +2172,7 @@
     font-size: 13px;
     line-height: 17px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .shipping-addr-area .bot-chk-area{
     margin: 20px -10px 0;
@@ -2261,7 +2261,7 @@
     height: 56px;
     line-height: 56px;
     text-align: center;
-    background-color: #ff6b00;
+    background-color: #06C755;
     border-radius: 7px;
     font-weight: 500;
     font-size: 18px;
@@ -2541,7 +2541,7 @@
     transition: .25s;
 }
 .sort-popup .popup-area .popup-wrap .btn-list-area .btn.active{
-    background-color: #ff6800;
+    background-color: #06C755;
     color: #fff;
 }
 .sort-popup .popup-area .bot-btn-wrap{
@@ -2691,10 +2691,13 @@
     font-size: 13px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #FF6A00;
 }
 .cate-list .product-list-area .content-text-area .ico-wrap .sct_icon .icon.icon_new{
-    color: #4BBA54;
+    color: #06C755;
+}
+.cate-list .product-list-area .content-text-area .ico-wrap .sct_icon .icon.icon_best{
+    color: #FF6A00;
 }
 .cate-list .wishlist-empty-con{
     padding: 50px 0 60px;
@@ -2728,7 +2731,7 @@
 .cate-list .wishlist-empty-con .text-area .btn-wrap .button{
     display: inline-block;
     padding: 18px 41px;
-    background-color: #ff6b00;
+    background-color: #06C755;
     border-radius: 7px;
     font-weight: 500;
     font-size: 16px;
@@ -2770,7 +2773,7 @@
 .sub-empty-con .text-area .btn-wrap .button{
     display: inline-block;
     padding: 18px 41px;
-    background-color: #ff6b00;
+    background-color: #06C755;
     border-radius: 7px;
     font-weight: 500;
     font-size: 16px;
@@ -2911,7 +2914,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .order-shipping .order-shipping-area .product-list-area .bot-btn-area{
     font-size: 0;
@@ -3145,7 +3148,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .review-notice .review-notice-area .product-list-area .product-area .content-text-area .star-wrap{
     display: flex;
@@ -3287,7 +3290,7 @@
     color: #a6a6a6;
 }
 .common-layer-popup .popup-footer-area .btn-area .button.orange{
-    color: #ff6b00;
+    color: #06C755;
     font-weight: 700;
 }
 /* // 공통 팝업 */
@@ -3600,7 +3603,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .order-inquiry-list .content-text-area .text-area .bot-text-wrap .text .date{
     color: #a6a6a6;
@@ -3720,7 +3723,7 @@
     color: #fff;
 }
 .flow-nav-area .nav-list-area .list-con.active-orange{
-    color: #FF6B00;
+    color: #06C755;
 }
 .flow-nav-area .nav-list-area .list-inner{
     font-size: 0;
@@ -3934,7 +3937,7 @@
     font-size: 13px;
     line-height: 17px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .exchange-area .reason-area .upload-refer-area .text-wrap .text{
     margin: 5px 0 0;
@@ -4056,7 +4059,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .exchange-info-area .content-text-area .total-text-area .text-wrap{}
 .exchange-info-area .content-text-area .total-text-area .text-wrap .text{
@@ -4064,7 +4067,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 /* // 교환/반품신청 */
 .bot-btn{
@@ -4094,7 +4097,7 @@
     color: #232323;
 }
 .bot-btn .btn-wrap .button.orange{
-    background-color: #ff6800;
+    background-color: #06C755;
     color: #fff;
 }
 /* 픽업약국 선택 */
@@ -4132,7 +4135,7 @@
     border-radius: 7px;
 }
 .pickup .pickup-list-area .list-con.active .list-inner{
-    border-color: #FF9013;
+    border-color: #06C755;
 }
 .pickup .pickup-list-area .content-text-area{
     padding: 20px 20px 30px;
@@ -4209,7 +4212,7 @@
     font-size: 13px;
     line-height: 17px;
     letter-spacing: -0.045em;
-    color: #FF6B00;
+    color: #06C755;
 }
 .pickup .pickup-list-area .content-text-area .text-area .text-wrap .length{
     font-weight: 700;
@@ -4244,7 +4247,7 @@
     border-top: 1px solid #e8e8e8;
 }
 .pickup .pickup-list-area .list-con.active .toggle-outer{
-    border-top-color: #FF9013;
+    border-top-color: #06C755;
 }
 .pickup .pickup-list-area .toggle-outer .toggle-title-area{
     display: flex;
@@ -4272,7 +4275,7 @@
     color: #000000;
 }
 .pickup .pickup-list-area .toggle-outer .toggle-title-area .btn-wrap .text.orange{
-    color: #ff6800;
+    color: #06C755;
 }
 .pickup .pickup-list-area .toggle-outer .toggle-title-area .btn-wrap .btn{
     margin-left: 2px;
@@ -4420,7 +4423,7 @@
     padding: 20px 20px 30px;
 }
 .order-list .g-lnb .dep1-wrap .dep1-con.active .dep1{
-    color: #FF6B00;
+    color: #06C755;
 }
 .order-list .order-list-area{}
 .order-list .order-list-area .list-wrap{
@@ -4466,6 +4469,10 @@
     border-color: #FF6A00;
     color: #FF6A00;
 }
+.order-list .order-list-area .content-text-area .title-area .status-wrap .status.green{
+    border-color: #06C755;
+    color: #06C755;
+}
 .order-list .order-list-area .content-text-area .title-area .status-wrap .status.blue{
     border-color: #5D84F9;
     color: #5D84F9;
@@ -4503,7 +4510,7 @@
     font-size: 13px;
     line-height: 20px;
     letter-spacing: -0.045em;
-    color: #FF6A00;
+    color: #06C755;
 }
 .order-list .order-list-area .bot-text-area{
     display: flex;
@@ -4691,11 +4698,11 @@
 }
 .order-result .order-info-area .list-con.refund .title-wrap .title{
     font-weight: 700;
-    color: #FF6B00;
+    color: #06C755;
 }
 .order-result .order-info-area .list-con.refund .text-wrap .text{
     font-weight: 700;
-    color: #FF6B00;
+    color: #06C755;
 }
 .order-result .refer-text-area{
     margin: 30px 0 0;
@@ -4852,7 +4859,7 @@
 }
 
 .order-result .bot-btn-area .btn-wrap .btn.orange {
-    background: #FF6B00;
+    background: #06C755;
 }
 .order-result .bot-btn-area .btn.orange .text {
     color: #FFFFFF;
@@ -4919,7 +4926,7 @@
 }
 .order-cancel-confirm .bot-btn-area .btn-wrap .btn.filled{
     height: 56px;
-    background-color: #FF6A00;
+    background-color: #06C755;
     border-radius: 7px;
 }
 .order-cancel-confirm .bot-btn-area .btn-wrap .btn .text{
@@ -5020,7 +5027,7 @@
     height: 56px;
     line-height: 56px;
     text-align: center;
-    background-color: #ff6800;
+    background-color: #06C755;
     font-weight: 500;
     font-size: 18px;
     letter-spacing: -0.045em;
@@ -5251,8 +5258,8 @@
     transition: .25s;
 }
 .agree-popup .submit-btn-area .btn-wrap .btn.active{
-    background: #FF6A00;
-    border-color: #FF6A00;
+    background: #06C755;
+    border-color: #06C755;
     color: #fff;
 }
 .agree-popup .submit-btn-area .btn-wrap .btn .text{
@@ -5377,8 +5384,8 @@
 	 border-radius: 50px;
 }
 .mypage .toggleWrapper input.mobileToggle:checked + label:before {
-	 background: #FF6A00;
-     border-color: #FF6A00;
+	 background: #06C755;
+     border-color: #06C755;
 	 transition: width .2s cubic-bezier(0,0,0,.1);
 }
 .mypage .toggleWrapper input.mobileToggle:checked + label:after {
