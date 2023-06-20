@@ -5976,7 +5976,7 @@
 }
 .map .marker-info-area .content-text-area .info-area .info-wrap{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .map .marker-info-area .content-text-area .info-area .info-wrap .title{
     font-weight: 500;
@@ -5990,7 +5990,7 @@
     width: 1px;
     height: 12px;
     background-color: #d9d9d9;
-    margin: 0 5px;
+    margin: 5px 5px 0;
     text-indent: -9999px;
 }
 .map .marker-info-area .content-text-area .info-area .info-wrap .text{
@@ -5999,7 +5999,6 @@
     line-height: 22px;
     letter-spacing: -0.045em;
     color: #212121;
-    white-space: nowrap;
 }
 .map .marker-info-area .content-text-area .addr-area{
     margin: 8px 0 0;
